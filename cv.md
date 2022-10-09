@@ -28,3 +28,12 @@
 **01.01.2019 - 14.01.2019** – FructCode, Nikonov S. (Course of training seminars 'HTML/CSS')
 
 ---
+
+### Skills
+
+- JavaScript
+- HTML5, CSS3
+- Git, GitHub, GitLab
+- VS Code, IntelliJ IDEA
+
+---
