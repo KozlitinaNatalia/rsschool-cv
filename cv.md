@@ -37,3 +37,35 @@
 - VS Code, IntelliJ IDEA
 
 ---
+
+### Code Example
+
+```
+class Employees {
+  constructor(name, position, age, status = "ABC") {
+    this.name = name;
+    this.position = position;
+    this.age = age;
+    this.status = status;
+  }
+  getDataInfo() {
+    return `${this.name} has ${this.age} years and takes ${this.position} position(${this.status})`;
+  }
+}
+
+const john = new Employees("John", "UI", 29, "active");
+const jack = new Employees("Jack", "BA", 39, "busy");
+const peter = new Employees("Peter", "QA", 28, "active");
+
+john.getDataInfo();
+jack.getDataInfo();
+peter.getDataInfo();
+```
+
+---
+
+### Language
+
+**Ukrainian** native speaker
+**Russian** native speaker
+**English** B2
