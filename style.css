@@ -19,12 +19,41 @@ h2 {
   margin-left: 30px;
 }
 
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-right: 2px;
+}
+
+nav li a {
+  display: inline-block;
+  padding: 10px 8px;
+  color: black;
+  text-decoration: none;
+  text-align: center !important;
+}
+
 ul > li {
   list-style-type: none;
 }
 
 .skills > ul > li {
   list-style: square;
+}
+
+.skills ul {
+  text-align: left;
 }
 
 hr {

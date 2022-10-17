@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Nataliia CV</title>
   </head>
-  <body>
+  <body class="container">
     <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code Example</a></li>
+            </ul>
+        </nav>
       <h1>Nataliia Kozlitina</h1>
       <h2 class="main">Junior Front-end developer</h2>
-      <hr />
+      <hr>
     </header>
 
     <main>
@@ -23,9 +31,10 @@
           troubleshooting problems and assisting in the timely completion of
           projects
         </p>
-        <hr />
+        <hr>
       </section>
       <section id="contact">
+        <h2>Contact Me</h2>
         <ul>
           <li><strong>Phone:</strong> +380686084125</li>
           <li><strong>E-mail:</strong> kozlitinanatalia.e@gmail.com</li>
@@ -40,8 +49,9 @@
             >
           </li>
         </ul>
+        <hr>
       </section>
-      <section class="additional education">
+      <section class="additional education" id="education">
         <h2>Additional Education</h2>
         <ul>
           <li>
@@ -65,7 +75,7 @@
             training seminars "HTML/CSS")
           </li>
         </ul>
-        <hr />
+        <hr>
       </section>
       <section class="main education">
         <h2>Educational Background</h2>
@@ -84,9 +94,76 @@
             qualification level - master, diploma with honors
           </li>
         </ul>
-        <hr />
+        <hr>
+      </section>
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>HTML5, CSS3</li>
+          <li>Git, GitHub, GitLab</li>
+          <li>VS Code, IntelliJ IDEA</li>
+        </ul>
+        <hr>
+      </section>
+      <section class="code example" id="code">
+        <h2>Code Example</h2>
+        <pre>
+            <code>
+            class Employees {
+                constructor(name, position, age, status = "ABC") {
+                    this.name = name;
+                    this.position = position;
+                    this.age = age;
+                    this.status = status;
+                }
+                getDataInfo() {
+                    return `${this.name} has ${this.age years and takes ${this.position} position(${this.status})`;
+                }
+            }
+            const john = new Employees("John", "UI", 29, "active");
+            const jack = new Employees("Jack", "BA", 39, "busy");
+            const peter = new Employees("Peter", "QA", 28, "active");
+            john.getDataInfo();
+            jack.getDataInfo();
+            peter.getDataInfo();
+            </code>
+        </pre>
+        <hr>
+      </section>
+      <section class="project example">
+        <h2>Project Examples</h2>
+        <a href="https://gitlab.com/NataliiaKozlitina/sw" target="_blank"
+          >https://gitlab.com/NataliiaKozlitina/sw</a
+        >
+        <hr>
+      </section>
+      <section class="languages">
+        <h2>Languages</h2>
+        <ul>
+          <li><strong> Ukrainian</strong> native speaker</li>
+          <li><strong>Russian</strong> native speaker</li>
+          <li><strong>English</strong> B2</li>
+        </ul>
+        <hr>
       </section>
     </main>
-    <hr />
+    <footer>
+      <ul>
+        <li>
+          <a href="https://github.com/KozlitinaNatalia/" target="_blank"
+            >KozlitinaNataliia</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://rs.school/js/"
+            target="_blank"
+            aria-label="RS Corse Logo"
+            ><img src="rs_school_js.svg" alt="rs school" width="70"></a>
+        </li>
+        <li>October 2022</li>
+      </ul>
+    </footer>
   </body>
 </html>
